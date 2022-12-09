@@ -12,8 +12,9 @@ public class Main{
   m+=c; // m=m+c
 
   int hour=(m/60)%24; // %를 통해 24이상일 경우 0으로 돌아가도록 설정함
- int minute = m%60; // %를 통해 60분 이상이면 0으로 돌아가도록 설정
-if(minute>=60){
+  int minute = m%60; // %를 통해 60분 이상이면 0으로 돌아가도록 설정
+  // 60분으로 넘을 경우 hour에 1플러스, 분은 60마이너스
+  if(minute>=60){
   hour+=1;
   minute-=60;
 }
