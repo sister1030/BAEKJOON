@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main{
+  public static void main(String[] args){
+ Scanner sc = new Scanner(System.in);
+  int a = sc.nextInt();
+  int b = sc.nextInt();
+  int c = sc.nextInt();
+
+  int m = 60*a+b; // a의 시간을 분으로 변경
+  m+=c; // m=m+c
+
+  int hour=(m/60)%24; // %를 통해 24이상일 경우 0으로 돌아가도록 설정함
+ int minute = m%60; // %를 통해 60분 이상이면 0으로 돌아가도록 설정
+
+ System.out.println(hour+" "+minute);
+  }
+}

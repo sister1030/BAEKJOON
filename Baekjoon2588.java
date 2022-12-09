@@ -1,8 +1,6 @@
-package baekjoon;
-
 import java.util.Scanner;
 
-public class Backjoon2588 {
+public class Main {
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
    System.out.println("첫번째줄을 입력하세요");
