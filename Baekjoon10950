@@ -12,6 +12,7 @@ int A = sc.nextInt();
 int B = sc.nextInt(); 
 if(0<A&&B<10){
 System.out.println(A+B);
-}}
-}
+      }
+    }
+  }
 }
