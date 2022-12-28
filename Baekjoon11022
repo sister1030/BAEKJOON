@@ -12,7 +12,7 @@ for(int i=1; i<=num; i++){
  int b = sc.nextInt();
  int sum = a+b;
 
-System.out.println("Case #"+i+": "+sum);
+System.out.println("Case #"+i+": "+a+" + "+b+" = "+sum);
     }
   }
 }
